@@ -13,35 +13,44 @@ body {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 10px 60px;
-    height: 60px; /* dünnerer Balken */
+    padding: 10px 80px;
+    height: 60px; /* dünner Balken */
     box-shadow: 0 2px 6px rgba(0, 0, 0, 0.2);
 }
 
 /* Logo (Bindi) */
 .logo {
-    font-family: 'Orbitron', sans-serif;
-    font-size: 1.8em;
-    font-weight: 700;
-    letter-spacing: 2px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 800;
+    font-size: 2em;
+    letter-spacing: 1.5px;
+    background: linear-gradient(90deg, #ff3d00, #ff9100);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
     text-transform: uppercase;
+    cursor: default;
 }
 
 /* Navigation */
 .nav-links {
     display: flex;
-    gap: 40px;
+    justify-content: space-evenly;
+    flex: 1;
+    margin-left: 80px;
 }
 
 .nav-links a {
     color: white;
     text-decoration: none;
     font-weight: 500;
-    transition: color 0.3s;
+    transition: all 0.3s ease;
+    letter-spacing: 0.5px;
+    font-size: 1.05em;
 }
 
 .nav-links a:hover {
     color: #ff3d00;
+    transform: scale(1.1);
 }
 
 /* Shop-Bereich */
