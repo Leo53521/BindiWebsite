@@ -58,3 +58,38 @@ footer {
     margin-top: 50px;
     box-shadow: 0 -2px 4px rgba(0,0,0,0.1);
 }
+/* Kopfzeile */
+.navbar {
+  background-color: #000;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 40px;
+  font-family: 'Poppins', sans-serif;
+}
+
+.navbar .logo {
+  font-size: 1.8em;
+  font-weight: 600;
+  letter-spacing: 2px;
+}
+
+.navbar ul {
+  list-style: none;
+  display: flex;
+  gap: 25px;
+  margin: 0;
+  padding: 0;
+}
+
+.navbar ul li a {
+  color: white;
+  text-decoration: none;
+  font-size: 1.1em;
+  transition: 0.3s;
+}
+
+.navbar ul li a:hover {
+  color: #b3b3b3;
+}
